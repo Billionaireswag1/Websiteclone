@@ -1,0 +1,128 @@
+/* Learning section */
+
+/* Page background */
+body {
+  background-color: #f5f6f7;
+  margin: 0;
+}
+
+/* Main section container */
+.learning {
+  background: transparent;
+  max-width: 900px;
+  margin: 0 auto 80px;
+  padding: 32px 24px;
+  color: #0a0a23;
+  font-family: "Lato", sans-serif;
+}
+
+/* Main title */
+.learning-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0a0a23;
+  margin: 0 0 18px;
+  border-bottom: 3px solid #0a0a23;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+/* Subsection headings */
+.learning-subtitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0a0a23;
+  margin: 32px 0 14px;
+  border-bottom: 2px solid #b3b7c1;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+/* Learning cards */
+.learning-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #d0d0d5;
+  border: 3px solid #0a0a23;
+  padding: 30px 32px;
+  margin-bottom: 14px;
+  border-radius: 0;
+  min-height: 110px;
+  box-sizing: border-box;
+}
+
+/* Small hover effect */
+.learning-box:hover {
+  background: #c8c8cf;
+  transform: translateY(-1px);
+}
+
+/* Icons inside each card */
+.learning-icon {
+  color: #0a0a23;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+/* Text inside the cards */
+.learning-box span,
+.learning-link {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #0a0a23;
+}
+
+/* Card links */
+.learning-link {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.learning-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer note */
+.learning-note {
+  text-align: center;
+  margin-top: 36px;
+  font-size: 0.95rem;
+  color: #1b1b32;
+}
+
+.learning-note a {
+  color: #004aad;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .learning {
+    padding: 24px 16px;
+  }
+
+  .learning-box {
+    gap: 12px;
+    padding: 18px 16px;
+  }
+
+  .learning-title {
+    font-size: 1.2rem;
+  }
+
+  .learning-subtitle {
+    font-size: 1rem;
+  }
+
+  .learning-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .learning-box span,
+  .learning-link {
+    font-size: 1rem;
+  }
+}

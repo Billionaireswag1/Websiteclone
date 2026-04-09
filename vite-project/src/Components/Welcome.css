@@ -1,33 +1,36 @@
+/* Wraps the whole welcome section at the top */
 .welcome-section {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto 0; /* creates space from the navbar */
+  padding: 40px 20px 20px;
   text-align: center;
 }
 
-.welcome-section h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-
-.quote {
-  font-style: italic;
-  margin-bottom: 10px;
-}
-
-.author {
-  font-size: 14px;
-}
+/* Main welcome heading */
 .welcome-title {
-  font-size: 40px;
-  font-weight: 700;
+  margin: 0 0 30px;
+  font-size: 1.9rem; /* slightly smaller to match FCC feel */
+  font-weight: 500;
+  color: #0a0a23;
 }
 
+/* Holds the quote + author together */
+.welcome-quote-block {
+  margin-bottom: 40px; /* separates it from the donation section */
+}
+
+/* The quote text */
 .welcome-quote {
-  font-size: 20px;
+  margin: 0 0 14px; /* space between quote and author */
+  font-size: 1.2rem;
   font-style: italic;
+  color: #0a0a23;
 }
 
+/* Name of the person who said the quote */
 .welcome-author {
-  font-size: 16px;
+  margin: 0;
+  font-size: 1rem;
+  font-style: italic;
+  color: #6b7280; /* softer tone so it doesn’t compete with the quote */
 }

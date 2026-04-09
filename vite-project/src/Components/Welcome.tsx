@@ -1,28 +1,30 @@
 import "./Welcome.css";
+
 export default function Welcome() {
   return (
-    // Main section container for the welcome content
+    /* Main welcome section at the top of the page */
     <section className="welcome-section">
 
-      {/* Page welcome heading */}
+      {/* Main heading */}
       <h1 className="welcome-title">
         Welcome to freeCodeCamp.org
       </h1>
 
-      {/* Quote block container */}
+      {/* Quote + author block */}
       <div className="welcome-quote-block">
 
-        {/* Quote text */}
+        {/* Inspirational quote */}
         <p className="welcome-quote">
-          "By seeking and blundering we learn."
+          “The work of today is the history of tomorrow, and we are its makers.”
         </p>
 
-        {/* Quote author */}
+        {/* Person who said the quote */}
         <p className="welcome-author">
-          — Johann Wolfgang von Goethe
+          Juliette Gordon Low
         </p>
 
       </div>
+
     </section>
   );
 }
